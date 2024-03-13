@@ -1,6 +1,7 @@
 language = "html"
 run = "run"
 hidden = [".config"]
+modules = ["web:v2-20230623-0b7a606"]
 
 [languages]
 
@@ -30,3 +31,7 @@ channel = "stable-22_11"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config"]
+
+[deployment]
+publicDir = "/"
+deploymentTarget = "static"
